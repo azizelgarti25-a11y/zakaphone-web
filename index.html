@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zaka Phone · Móviles libres y reparación en Manresa</title>
+<meta name="description" content="Móviles libres, reparación de móviles y accesorios en el Carrer del Born, 14, Manresa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="#top">Zaka<span>Phone</span></a>
+    <nav aria-label="Principal">
+      <a href="#servicios">Servicios</a><a href="#proceso">Cómo funciona</a><a href="#opiniones">Opiniones</a><a href="#preguntas">Preguntas</a><a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <div>
+        <h1>Tu móvil, como nuevo. En Manresa.</h1>
+        <p class="lead">Compra móviles libres, repara tu pantalla y encuentra accesorios en el Carrer del Born.</p>
+        <div class="actions">
+          <a class="btn" href="tel:+34936273871">Llamar al 936 27 38 71</a>
+          <a class="btn alt" href="#contacto">Cómo llegar</a>
+        </div>
+      </div>
+      <div class="demo" id="demo">
+        <div class="phone" aria-hidden="true">
+          <div class="screen" id="screen">
+            <span id="screenText">Zaka Phone</span>
+            <div class="shade"></div>
+            <svg class="crack" viewBox="0 0 100 200" preserveAspectRatio="none"><path d="M62 0 L55 38 L38 62 L44 96 L22 128 M55 38 L82 52 L96 84 M44 96 L70 118 L64 156 L80 200 M38 62 L10 58 L0 70 M22 128 L30 170 L18 200"/></svg>
+          </div>
+        </div>
+        <div class="toggle" role="group" aria-label="Estado de la pantalla">
+          <button type="button" id="bBroken" aria-pressed="true">Pantalla rota</button>
+          <button type="button" id="bFixed" aria-pressed="false">Reparada</button>
+        </div>
+        <p class="state" id="state" aria-live="polite">Así llega un móvil con la pantalla rota.</p>
+      </div>
+    </div>
+
+    <section id="servicios">
+      <h2>Qué hacemos</h2>
+      <div class="row"><h3>Móviles libres</h3><div><p>Teléfonos sin compromiso con ninguna operadora: pones la tarjeta SIM que quieras. Pregunta por los modelos disponibles en tienda.</p><ul class="chips"><li>Sin permanencia</li><li>Cualquier operadora</li><li>Modelos en tienda</li></ul></div></div>
+      <div class="row"><h3>Reparación</h3><div><p>Trae tu móvil y te decimos qué tiene. Consulta si tu avería está entre las más habituales:</p><ul class="chips"><li>Pantalla rota</li><li>Batería</li><li>Conector de carga</li><li>Cámara</li><li>Altavoz y micrófono</li><li>Daños por agua</li></ul></div></div>
+      <div class="row"><h3>Accesorios</h3><div><p>Todo lo que tu móvil necesita para el día a día y para protegerlo de golpes y arañazos.</p><ul class="chips"><li>Fundas</li><li>Protectores de pantalla</li><li>Cargadores</li><li>Cables</li></ul></div></div>
+    </section>
+
+    <section id="proceso">
+      <h2>Cómo funciona una reparación</h2>
+      <ol class="steps">
+        <li><h3>Tráelo a la tienda</h3><p>Pásate por el Carrer del Born, 14 con tu móvil y cuéntanos qué le pasa.</p></li>
+        <li><h3>Lo revisamos</h3><p>Miramos el aparato para ver qué avería tiene y si merece la pena repararlo.</p></li>
+        <li><h3>Te explicamos las opciones</h3><p>Antes de empezar sabrás qué se puede hacer y cuánto cuesta.</p></li>
+        <li><h3>Recógelo</h3><p>Cuando esté listo, vienes a buscarlo y lo pruebas en la tienda.</p></li>
+      </ol>
+      <h3 class="sub">Antes de venir</h3>
+      <ul class="tips">
+        <li>Haz una copia de seguridad de tus fotos y datos.</li>
+        <li>Ten a mano el código de desbloqueo.</li>
+        <li>Trae también el cargador si el problema es la carga.</li>
+        <li>Cuéntanos qué pasó: golpe, agua o fallo repentino.</li>
+      </ul>
+    </section>
+
+    <section id="opiniones">
+      <h2>Lo que dicen los clientes</h2>
+      <div class="rating">
+        <b>4,9</b>
+        <p>de 5 en Google, con 77 opiniones de clientes de Manresa.</p>
+      </div>
+    </section>
+
+    <section id="preguntas">
+      <h2>Preguntas frecuentes</h2>
+      <details><summary>¿Qué es un móvil libre?</summary><p>Es un teléfono que no está vinculado a ninguna operadora. Puedes usarlo con la tarjeta SIM de la compañía que quieras y cambiarla cuando te convenga.</p></details>
+      <details><summary>¿Cuánto cuesta reparar mi móvil?</summary><p>Depende del modelo y de la avería. Trae el móvil a la tienda o llama al 936 27 38 71 y te lo decimos antes de empezar.</p></details>
+      <details><summary>Se me ha mojado el móvil, ¿qué hago?</summary><p>Apágalo cuanto antes, no lo cargues y no lo enciendas para probarlo. Sécalo por fuera y tráelo a la tienda cuanto antes para que lo revisemos.</p></details>
+      <details><summary>¿Perderé mis datos si lo reparo?</summary><p>Hay averías que no los afectan, pero conviene hacer siempre una copia de seguridad antes de traer el móvil.</p></details>
+      <details><summary>¿Puedo ir sin avisar?</summary><p>Sí, puedes pasarte por la tienda. Si prefieres consultar antes, llama al 936 27 38 71.</p></details>
+    </section>
+
+    <section id="contacto">
+      <h2>Ven a vernos</h2>
+      <div class="contact">
+        <dl>
+          <dt>Dirección</dt><dd>Carrer del Born, 14<br>08241 Manresa, Barcelona</dd>
+          <dt>Teléfono</dt><dd><a href="tel:+34936273871">936 27 38 71</a></dd>
+          <dt>Horario</dt><dd>Cerramos a mediodía, de 14:00 a 17:00. Confirma el horario completo en Google Maps.</dd>
+        </dl>
+        <div class="map">
+          <p><strong>¿Cómo llegar?</strong> Abre la ruta en Google Maps desde donde estés.</p>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Zaka+Phone+Carrer+del+Born+14+Manresa" target="_blank" rel="noopener">Abrir en Google Maps</a>
+          <a class="btn alt" href="http://www.zakaphone.es/" target="_blank" rel="noopener">Web oficial</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Zaka Phone · Carrer del Born, 14, Manresa</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
